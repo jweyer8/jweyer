@@ -5,5 +5,6 @@ public class Demo {
         for(int num : a){
             System.out.println(num);
         }
+        System.out.println("...");
     }
 }
