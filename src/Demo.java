@@ -1,3 +1,6 @@
+import java.util.*;
+
+
 public class Demo {
     public static void main(String[] args){
         System.out.println("Hello World");
@@ -6,5 +9,11 @@ public class Demo {
             System.out.println(num);
         }
         System.out.println("...");
+        Scanner in = new Scanner(System.in);
+        System.out.print("what is your name");
+        String reply = in.nextLine();
+        String add = "your name is " + reply;
+
+        System.out.println(add);
     }
 }
